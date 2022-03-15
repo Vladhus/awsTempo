@@ -23,7 +23,7 @@
         "validateOnSynth": false,
         "assumeRoleArn": "arn:${AWS::Partition}:iam::061500401071:role/cdk-hnb659fds-deploy-role-061500401071-eu-central-1",
         "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::061500401071:role/cdk-hnb659fds-cfn-exec-role-061500401071-eu-central-1",
-        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-061500401071-eu-central-1/1bbc06616d8fe0d8ac6031acc5c8ebf6d6eafa8a5b5195cffe0bd80786078dd0.json",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-061500401071-eu-central-1/a6c72bd6fad82b3f8f17bcef177528c2068973c44c6f74dafba6dd0c03ad36ed.json",
         "requiresBootstrapStackVersion": 6,
         "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
         "additionalDependencies": [
@@ -226,10 +226,10 @@
             ]
           }
         ],
-        "/CdkpipelinesDemoPipelineStack/Pipeline/Pipeline/Source/Vladhus_tempo/WebhookResource": [
+        "/CdkpipelinesDemoPipelineStack/Pipeline/Pipeline/Source/Vladhus_awsTempo/WebhookResource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "PipelineSourceVladhustempoWebhookResourceD5A1BEE7",
+            "data": "PipelineSourceVladhusawsTempoWebhookResourceEA47E9DD",
             "trace": [
               "GitHubSourceAction.bound (C:\\Users\\Vladyslav\\Desktop\\aws tempo\\awsTempo\\cdkpipelines-demo\\node_modules\\@aws-cdk\\aws-codepipeline-actions\\lib\\github\\source-action.ts:132:7)",
               "GitHubSourceAction.bind (C:\\Users\\Vladyslav\\Desktop\\aws tempo\\awsTempo\\cdkpipelines-demo\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\action.ts:413:17)",
